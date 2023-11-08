@@ -1,0 +1,14 @@
+﻿  cbu2.c
+cbu2.c(1388,16): warning C4013: 'yylex'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+cbu2.y(102,33): warning C4013: 'cosstmt'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+cbu2.y(103,33): warning C4013: 'sinstmt'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+cbu2.y(104,33): warning C4013: 'tanstmt'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+cbu2.c(1668,15): warning C4013: 'yyerror'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  cbu2lex.c
+  코드를 생성하고 있습니다...
+C:\Users\koo06\OneDrive\바탕 화면\컴파일러\cbu\cbu\cbu2.l(97): warning C4716: 'yywrap': 값을 반환해야 합니다.
+C:\Users\koo06\OneDrive\바탕 화면\컴파일러\cbu\cbu\cbu2.y(142): warning C4716: 'yyerror': 값을 반환해야 합니다.
+cbu2.obj : error LNK2019: cosstmtyyparse 함수에서 참조되는 확인할 수 없는 외부 기호
+cbu2.obj : error LNK2019: sinstmtyyparse 함수에서 참조되는 확인할 수 없는 외부 기호
+cbu2.obj : error LNK2019: tanstmtyyparse 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\koo06\OneDrive\바탕 화면\컴파일러\cbu\x64\Debug\cbu.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.

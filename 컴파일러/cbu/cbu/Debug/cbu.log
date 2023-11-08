@@ -1,0 +1,9 @@
+﻿  cbu2.c
+cbu2.c(1369,16): warning C4013: 'yylex'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+cbu2.c(1649,15): warning C4013: 'yyerror'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  cbu2lex.c
+cbu2.l(48,55): warning C4013: 'MakeNode'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+C:\Users\koo06\OneDrive\바탕 화면\컴파일러\cbu\cbu\cbu2.l(71): warning C4716: 'yywrap': 값을 반환해야 합니다.
+C:\Users\koo06\OneDrive\바탕 화면\컴파일러\cbu\cbu\cbu2.y(148): warning C4716: 'yyerror': 값을 반환해야 합니다.
+  cbu.vcxproj -> C:\Users\koo06\OneDrive\바탕 화면\컴파일러\cbu\Debug\cbu.exe
